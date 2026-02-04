@@ -17,8 +17,8 @@ Launch like:
         -v /usr/include/vk_video:/usr/include/vk_video:ro \
         -v /usr/include/glslang:/usr/include/glslang:ro \
         -v /usr/bin/glslangValidator:/usr/bin/glslangValidator:ro \
-        -v "/home/c/Documents/code/ITIR-suite:/opt/ITIR-suite" \
-        -v "/home/.codex/:/root/.codex/" \
+        -v "/home/c/Documents/code/ITIR-suite:/home/c/Documents/code/ITIR-suite" \
+        -v "/home/c/.codex/:/root/.codex/" \
             --entrypoint /bin/bash \
         dashi_ready_image
 
